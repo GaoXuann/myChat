@@ -1,0 +1,8 @@
+<view wx:if="{{isLoading}}">
+    <!--pages/cond/cond.wxml-->
+      <text>loading</text>
+</view>
+<view wx:else>
+  <text>load done</text>
+</view>
+

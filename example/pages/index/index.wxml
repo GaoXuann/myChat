@@ -1,0 +1,2 @@
+<!--pages/index/index.wxml-->
+<navigator url='../home/home'>indes页面{{foo}}</navigator>
