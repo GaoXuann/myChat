@@ -1,0 +1,7 @@
+{
+  "pages": [
+    "pages/cond/cond",
+    "pages/index/index",
+    "pages/home/home"
+  ]
+}

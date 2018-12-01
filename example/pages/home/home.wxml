@@ -1,0 +1,20 @@
+<!--pages/home/home.wxml-->
+<view class='container'>
+    <text>
+        我是home页{{message}}      
+    </text>
+    <!-- 在小程序的wxml中属性的值，如果只是在双引号内部，他永远是字符串 -->
+    <checkbox checked='{{false}}'>
+    </checkbox>
+    <text>{{foo.addPost(message)}}</text>
+</view>
+
+<!-- 在视图层编写逻辑 -->
+ <!-- 可以导出一个对象，这个对象可以直接在界面上使用 -->
+<wxs module="foo">
+  module.exports = {
+    addPost:function(input){
+     return input+'1'
+     }
+  }
+</wxs>
